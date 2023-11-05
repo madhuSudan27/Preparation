@@ -18,6 +18,11 @@ Explanation: Replace the one 'A' in the middle with 'B' and form "AABBBBA".
 The substring "BBBB" has the longest repeating letters, which is 4.
 There may exists other ways to achieve this answer too. */
 
+#include<iostream>
+ #include<vector>
+ #include<string>
+ #include<unordered_map>
+ using namespace std;
 class Solution {
 public:
     int characterReplacement(string s, int k) {
