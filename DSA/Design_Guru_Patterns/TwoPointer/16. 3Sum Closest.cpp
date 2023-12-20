@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<algorithm>
 using namespace std;
 
 /* 
@@ -51,9 +52,6 @@ public:
                 }
                 if(sum>target) high--;
                 else low++;
-
-
-
                  
             }
         }
