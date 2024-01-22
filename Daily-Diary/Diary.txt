@@ -1,0 +1,26 @@
+Jan 21 
+    DSA{
+        Solved House Robber
+        
+    }
+    DEV{
+        Learning React Advance 
+        Higher Order Function
+        Map, filter, Reduce
+    }
+    SyatemDesign{
+        .. sad day 
+    }
+jan 22 
+    DSA{
+        Solved lc Daily problem only 
+    }
+    DEV{
+        Learned new concepts in react 
+        developed a web page using react 
+        utilized  Component reusability in real project 
+    }
+    SyatemDesign{
+        .. sad Day
+    }
+
