@@ -29,6 +29,7 @@ vector<int> findNumbers(vector<int> &nums) {
         swap(nums[i] , nums[nums[i] - 1]);
         }
     }
+    
     for(int i = 0; i < n; i++){
         if(nums[i] != i + 1){
         missingNumbers.push_back(i+1);
