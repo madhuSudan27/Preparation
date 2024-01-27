@@ -54,7 +54,7 @@ jan 27 {
         solved one problem 
     }
     DEV{
-        coded a small project Bithday Buddy
+        coded a small project Birthday Buddy
     }
     System design {
         .. none 
