@@ -8,9 +8,10 @@ Jan 21
         Higher Order Function
         Map, filter, Reduce
     }
-    SyatemDesign{
+    SystemDesign{
         .. sad day 
     }
+
 jan 22 
     DSA{
         Solved lc Daily problem only 
@@ -20,7 +21,42 @@ jan 22
         developed a web page using react 
         utilized  Component reusability in real project 
     }
-    SyatemDesign{
+    SystemDesign{
         .. sad Day
     }
 
+jan 23 
+    DSA{
+        solved just one LC daily problem 
+        Based on BackTracking 
+    }
+    DEV{
+        :- started learning hooks 
+    }
+    System Design{
+        .. sad Day
+    }
+
+jan 24 
+    DSA{
+        solved LC daily problem 
+    }
+    DEV{
+        covered useState and useEffect Hooks
+    }
+    System Design {
+        .. sad Day
+    }
+jan 25
+jan 26 
+jan 27 {
+    DSA{
+        solved one problem 
+    }
+    DEV{
+        coded a small project Bithday Buddy
+    }
+    System design {
+        .. none 
+    }
+}
