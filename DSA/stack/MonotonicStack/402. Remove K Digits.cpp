@@ -10,6 +10,8 @@ using namespace std;
     case 1 when all the digits are is_same  
     case 2 when only last digit is the greatest one 
             like 123  ans k = 1;
+
+            
  */
 string removeKdigits(string num, int k) {
     if(num == "0") return num;
