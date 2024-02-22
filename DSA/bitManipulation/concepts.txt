@@ -1,0 +1,16 @@
+The modulus operator can be used to extract the least significant digit of a number. This is useful for separating the digits of a number from each place.
+
+The same principle can be applied to binary numbers. The least significant bit of a binary number is the bit with the smallest place value, which is 2^0. The next bit is 2^1, and so on.
+
+To extract the least significant bit of a binary number, we can use the modulus operator. For example, the least significant bit of the number 1010 is 0, because 1010 % 2 = 0.
+
+To extract the next bit, we can divide the number by 2 and then take the floor of the result. So, the next bit of 1010 is 1, because floor(1010 / 2) = 505 // 2 = 252.
+
+We can continue this process to extract all of the bits in a binary number
+
+
+**********
+-> Result after shifting left(or right) too much is undefined
+-> Right shifting operations on negative values are undefined
+-> Right operand in shifting should be non-negative, otherwise the result is undefined
+-> The & and | operators have lower precedence than comparison operators
