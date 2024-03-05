@@ -6,11 +6,12 @@ using namespace std;
 
 
 
+
 int main() {
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
     
-     int n , p;
-    cin >> n >> p;
+    int n , p;
+    cin>> n >> p;
     vector<int>helper(p+2 , 0);
     
     for(int index = 0; index < n; index ++){
