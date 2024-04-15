@@ -1,0 +1,105 @@
+
+// promise api 
+
+/* promise.all()   <- fail fast approach 
+
+suppose we have 10 ids and we want to make 10 parallel api call 
+it can handle multiple promise at a same time  
+
+Promise.all([p1,p2,p3]);
+
+p1 -> 3s (time taken )
+p2 -> 1s 
+p3 -> 2s
+
+and all are success 
+it will return  an array of result <- but after 3s
+it will wait for all of them to finish  */
+
+
+/* 
+
+Now lets take a new scenario  where one promise rejected 
+
+promise.all([p1,p2,p3]);
+
+    -> as soon as if any one will be rejected it will return the error
+
+    -> it will not even wait for other promises to fulfilled or rejected or  in pending
+        it will throw  error quickly 
+
+-> lets p2 failed then what happens to p1 and p2 
+
+    it will not look for p1 and p2 promise.all() <-  will throw error
+    (suppose if p1 takes 1 s and p2 takes 2 sec ) <- in this case still it will return error 
+    // but may p1 fulfilled
+
+*/
+
+
+// Second API
+
+
+/* 
+lets take another case 
+
+    we want to just ignore the failed promise 
+    at the same time we need the result of other promise calls
+
+    -> new promise 
+
+    promise.allSettled([p1,p2,p3]);
+
+    suppose the same scenario
+    if (p2) failed then it will wait for all other promise to get settled
+
+    then the output will be => [val1 , error , val2]
+
+*/
+
+// Third api 
+/* 
+
+Promise.race([p1,p2,p3]);
+
+
+
+// since it is a race <- what ever promise get settled first will 
+// return the value of that promise  
+
+        p1 <- takes 3s
+        p2 <- takes 1s
+        p3 <- takes 4s
+
+            then the result will be val2 (first execution)
+
+        p1 <- takes 3s
+        p2 <- takes 5s
+        p3 <- takes 2s
+
+            then the result will be val3 (first execution)
+
+    if error then it will return the error or first promise 
+
+*/
+
+
+// fourth promise 
+
+/* 
+Promise.any([p1,p2,p3]);
+
+    -> enhanced  version of Promise.race();
+    -> it also has race(same as previous one) but returns only when result is success
+    -> seeking for first success  
+
+    -> if any(first) promise fails then it will wait for other promise to resolve 
+        until first success result;
+
+
+    // what if all promise get rejected(failed)
+        -> then the result will be Aggregated error of all the promises 
+        -> result :- [err1 , err2, err3]
+
+*/
+
