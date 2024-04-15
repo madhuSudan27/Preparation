@@ -31,7 +31,7 @@ console.log(calculate(radious, diameter));
 
 const Output = radious.map(area);
 
-// lets create a polyphills
+// lets create a polyfills
 Array.prototype.calculation = function(logic){
     const ans = [];
     for(let i = 0; i< this.length; i++){

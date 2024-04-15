@@ -1,5 +1,5 @@
 // when ever js runs any program a global execution context is created 
-// and it will have two componenet <-- memory component (variable environment) and code component 
+// and it will have two component <-- memory component (variable environment) and code component 
 // functions are heart of js
 
 // function invocation and variable environment 
@@ -19,3 +19,5 @@ function b(){
 }
 
 // at last entire call stack will be vanished 
+
+// ----- wow ----- 

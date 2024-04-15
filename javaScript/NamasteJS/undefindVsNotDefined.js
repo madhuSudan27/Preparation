@@ -1,4 +1,4 @@
-console.log(a); //<-- will print undefinded 
+console.log(a); //<-- will print undefined 
     // memory creation phase is already done <- so undefined (as temporary assignment)
     // during the code execution phase it will assign the value of a =10 
     // undefined != empty <- it is just a place holder 

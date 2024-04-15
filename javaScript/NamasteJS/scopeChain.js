@@ -1,6 +1,6 @@
 // scope in java script is directly related to lexical environment 
 
-// a();//<-- will print undefined dueo to hoisting 
+// a();//<-- will print undefined duo to hoisting (b is not executed)
 
 function a(){
     b=100;

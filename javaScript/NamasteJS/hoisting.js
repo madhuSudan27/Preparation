@@ -1,8 +1,8 @@
 // js is loosely typed language  not a strict type 
 
 
-// even before execution  memory is allocated to all the mariable and functions
-// and stores undefind for this variables 
+// even before execution  memory is allocated to all the variable and functions
+// and stores undefined for this variables 
 // in case of function whole code is put on 
 
 // lets see how allocation works 
@@ -18,7 +18,7 @@ var x=10;
 // }
 // now lets make getname as arrow function 
 
-var getName = ()=>{  //<- will behave lika a variable 
+var getName = ()=>{  //<- will behave like a variable 
     console.log("from arrow Function");
 }
 

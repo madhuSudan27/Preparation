@@ -1,7 +1,7 @@
 
 
-// closure <- function along with its lexical scope(parent) is a closure  or 
-// function bundeled together to its surrounding space 
+// closure <- function along with its lexical scope(parent) forms a closure  or 
+// function bundled together to its surrounding space 
 
 /* function x(){
     let a=10;

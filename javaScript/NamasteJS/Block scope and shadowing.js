@@ -15,7 +15,7 @@
     let a=10;
     var b=100;
     const c=1000;
-    // let and const are in block scope  ( within block only accessable )<-- hoisting 
+    // let and const are in block scope  ( within block only accessible )<-- hoisting 
     // we can access var outside ( global level )
 }
 
@@ -59,7 +59,7 @@ function xyz(){
 }
 
 {
-    // var a1=100;//<-- will throw an errow (illegal shadowing )
+    // var a1=100;//<-- will throw an error (illegal shadowing )
 
     let a1=100;// <- we can shadow like this 
 
